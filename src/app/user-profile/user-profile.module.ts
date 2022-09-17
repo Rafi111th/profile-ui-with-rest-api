@@ -1,3 +1,4 @@
+import { MatCardModule } from '@angular/material/card';
 import { IonicModule } from '@ionic/angular';
 import { CreateUserComponent } from './manage-user-profile/create-user/create-user.component';
 import { ViewUserComponent } from './manage-user-profile/view-user/view-user.component';
@@ -19,6 +20,7 @@ import { UpdateUserComponent } from './manage-user-profile/update-user/update-us
     CommonModule,
     UserProfileRoutingModule,
     IonicModule,
+    MatCardModule
   ]
 })
 export class UserProfileModule { }
